@@ -1,0 +1,221 @@
+#labor-regulations h1 {
+  font-size: 5.92rem; }
+#labor-regulations h2 {
+  font-size: 5.03rem; }
+#labor-regulations h3 {
+  font-size: 4.53rem; }
+#labor-regulations ul {
+  padding: 0;
+  text-align: center; }
+#labor-regulations li {
+  font-size: 4.53rem;
+  margin-bottom: 20px; }
+#labor-regulations p {
+  font-size: 3.72rem; }
+#labor-regulations .col-12 {
+  width: 80%;
+  margin: 0 auto; }
+#labor-regulations .red {
+  color: #C1272D; }
+#labor-regulations .bg-gray {
+  color: #E6E6E6; }
+#labor-regulations .origin-button {
+  width: 30%;
+  height: 37px;
+  margin: auto;
+  margin-bottom: 40px; }
+#labor-regulations .pc-flex {
+  justify-content: space-between; }
+#labor-regulations .title {
+  width: 100%; }
+  #labor-regulations .title .outline {
+    width: 98%;
+    height: 230px;
+    margin: 0 auto; }
+    #labor-regulations .title .outline .bg-img {
+      width: 100%;
+      height: 100%;
+      background: url("../images/img/regulations.jpg");
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #labor-regulations .title .outline .bg-img .bg-white {
+        width: 45%;
+        height: 45%;
+        background: rgba(255, 255, 255, 0.8);
+        color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        @media (max-width: 640px) {
+          #labor-regulations .title .outline .bg-img .bg-white {
+            width: 80%; } }
+#labor-regulations .nayami {
+  margin: 70px 0; }
+  #labor-regulations .nayami .origin-button {
+    text-align: center; }
+    @media (max-width: 640px) {
+      #labor-regulations .nayami .origin-button {
+        width: 75%; } }
+#labor-regulations .what-bg {
+  background: url("../images/img/img_06.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+  position: relative;
+  z-index: 9; }
+  #labor-regulations .what-bg .bg-white {
+    content: "";
+    background: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; }
+  #labor-regulations .what-bg .what h2 {
+    text-align: center;
+    margin-bottom: 20px; }
+#labor-regulations .sec .sec-title {
+  color: #1B1464;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  text-align: center; }
+#labor-regulations .sec .sec-title-under {
+  border-bottom: 1px solid #1B1464;
+  width: 210px;
+  margin: auto;
+  position: relative; }
+  #labor-regulations .sec .sec-title-under::after {
+    content: "";
+    width: 60px;
+    height: 4px;
+    position: absolute;
+    top: -1.5px;
+    left: 0px;
+    background: #1B1464; }
+#labor-regulations .needly .pc-flex .sec-txt {
+  order: 1;
+  width: 63%; }
+  @media (max-width: 640px) {
+    #labor-regulations .needly .pc-flex .sec-txt {
+      width: 100%; } }
+#labor-regulations .needly .pc-flex .img {
+  order: 2;
+  width: 37%;
+  height: 315px;
+  margin-left: 40px; }
+  @media (max-width: 640px) {
+    #labor-regulations .needly .pc-flex .img {
+      width: 100%;
+      margin: 0;
+      margin-bottom: 30px; } }
+  #labor-regulations .needly .pc-flex .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+#labor-regulations .txt1 {
+  width: 49%; }
+  @media (max-width: 640px) {
+    #labor-regulations .txt1 {
+      width: 100%; } }
+#labor-regulations .txt2 {
+  width: 49%; }
+  @media (max-width: 640px) {
+    #labor-regulations .txt2 {
+      width: 100%; } }
+#labor-regulations .column .col-title {
+  width: 100%;
+  background: #FFF3F4;
+  height: 40px;
+  color: #1B1464;
+  display: flex;
+  align-items: center; }
+  #labor-regulations .column .col-title h2 {
+    line-height: 40px;
+    padding-left: 30px;
+    margin: 0; }
+#labor-regulations .column .col-txt {
+  margin-top: 24px; }
+#labor-regulations .space {
+  margin-top: 100px; }
+  @media (max-width: 640px) {
+    #labor-regulations .space {
+      margin: 0; } }
+#labor-regulations .bg-gray {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  margin-top: 90px;
+  background: #E6E6E6; }
+  #labor-regulations .bg-gray h2 {
+    color: #1B1464;
+    margin-bottom: 40px; }
+  #labor-regulations .bg-gray h3 {
+    color: #000; }
+  #labor-regulations .bg-gray .flow {
+    text-align: center; }
+    #labor-regulations .bg-gray .flow h3 {
+      color: #FFF;
+      margin: 0; }
+    #labor-regulations .bg-gray .flow .f {
+      display: flex;
+      height: 145px; }
+      @media (max-width: 640px) {
+        #labor-regulations .bg-gray .flow .f {
+          height: 215px; } }
+      #labor-regulations .bg-gray .flow .f .bg-blue {
+        width: 30%;
+        position: relative;
+        color: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        #labor-regulations .bg-gray .flow .f .bg-blue::before {
+          content: "";
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          transform: translateX(-50%);
+          border-right: 50px solid transparent;
+          border-left: 50px solid transparent; }
+      #labor-regulations .bg-gray .flow .f .bg-white {
+        width: 70%;
+        background: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        @media (max-width: 640px) {
+          #labor-regulations .bg-gray .flow .f .bg-white {
+            padding: 0 25px; } }
+        #labor-regulations .bg-gray .flow .f .bg-white p {
+          margin: 0; }
+    #labor-regulations .bg-gray .flow .f1 .bg-blue {
+      background: #5156C1; }
+      #labor-regulations .bg-gray .flow .f1 .bg-blue::before {
+        border-top: 50px solid #5156C1; }
+    #labor-regulations .bg-gray .flow .f2 .bg-blue {
+      background: #3841B2; }
+      #labor-regulations .bg-gray .flow .f2 .bg-blue::before {
+        border-top: 50px solid #3841B2; }
+    #labor-regulations .bg-gray .flow .f3 .bg-blue {
+      background: #2635A8; }
+      #labor-regulations .bg-gray .flow .f3 .bg-blue::before {
+        border-top: 50px solid #2635A8; }
+    #labor-regulations .bg-gray .flow .f4 .bg-blue {
+      background: #040D84; }
+      #labor-regulations .bg-gray .flow .f4 .bg-blue::before {
+        border-top: 50px solid transparent; }
+    #labor-regulations .bg-gray .flow h2 {
+      font-size: 4.03rem;
+      color: #000; }
+    #labor-regulations .bg-gray .flow div {
+      margin-bottom: 35px; }
+      @media (max-width: 640px) {
+        #labor-regulations .bg-gray .flow div {
+          margin-bottom: 35px; } }
+
+/*# sourceMappingURL=labor_regulations.css.map */

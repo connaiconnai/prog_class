@@ -1,0 +1,203 @@
+@import 'config';
+
+#subsidy{
+  h1{
+    font-size: 5.92rem;
+  }
+  h2{
+    font-size: 5.03rem;
+  }
+  h3{
+    font-size: 4.53rem;
+  }
+  ul{
+    padding: 0;
+    text-align: center;
+  }
+  li{
+    font-size: 4.53rem;
+    margin-bottom: 20px;
+  }
+  p{
+    font-size: 3.72rem;
+  }
+  .col-12{
+    width: 80%;
+    margin:0 auto;
+  }
+  .red{
+    color: #C1272D;
+  }
+  .blue{
+    color:#1B1464;
+  }
+  .bg-gray{
+    color:#E6E6E6;
+  }
+  .origin-button{
+    width: 30%;
+    height:37px;
+    margin:auto;
+    margin-bottom: 40px;
+  }
+  .pc-flex{
+    justify-content:space-between;
+  }
+  .title{
+    width: 100%;
+    .outline{
+      width: 98%;
+      height:230px;
+      margin:0 auto;
+      .bg-img{
+        width: 100%;
+        height:100%;
+        background:url('../images/img/subsidy.jpg');
+        background-position:top;
+        background-repeat:no-repeat;
+        background-size:cover;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        .bg-white{
+          width: 45%;
+          height: 45%;
+          background:rgba(255,255,255,0.8);
+          color:#000;
+          display:flex;
+          justify-content:center;
+          align-items:center;
+          @include sp{
+            width: 80%;
+          }
+        }
+      }
+    }
+  }
+  .nayami{
+    margin: 70px 0;
+    .origin-button{
+      text-align: center;
+      @include sp{
+        width: 75%;
+      }
+    }
+  }
+  .what{
+    .pc-flex{
+      .txt{
+        order:1;
+        width: 63%;
+        @include sp{
+          width: 100%;
+        }
+      }
+      .img{
+        order:2;
+        width: 37%;
+        height: 315px;
+        margin-left: 40px;
+        @include sp{
+          width: 100%;
+          margin: 0;
+          margin-bottom: 40px;
+        }
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit:cover;
+        }
+      }
+    }
+    h2{
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+  .sec{
+    .sec-title{
+      color:#1B1464;
+      margin-top:60px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .sec-title-under{
+      border-bottom:1px solid #1B1464;
+      width: 210px;
+      margin:auto;
+      position: relative;
+      &::after{
+        content:"";
+        width: 60px;
+        height: 4px;
+        position: absolute;
+        top: -1.5px;
+        left: 0px;
+        background:#1B1464;
+      }
+    }
+  }
+  .txt1{
+    width: 100%;
+    margin-top: 30px;
+    .column{
+      width: 49%;
+      @include sp{
+        width: 100%;
+      }
+    }
+  }
+  .txt2{
+    width: 100%;
+    margin-top: 30px;
+    .column{
+      width: 49%;
+      @include sp{
+        width: 100%;
+      }
+    }
+  }
+  .column{
+    .col-title{
+      width: 100%;
+      background: #FFF3F4;
+      height: 40px;
+      color:#1B1464;
+      display:flex;
+      align-items:center;
+      h2{
+        line-height: 40px;
+        padding-left: 30px;
+        margin: 0;
+      }
+    }
+    .col-txt{
+      margin-top: 24px;
+    }
+  }
+  .melit{
+    .column{
+      margin-bottom: 50px;
+    }
+  }
+  .bg-gray{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    margin-top: 90px;
+    h2{
+      color:#1B1464;
+    }
+    h3{
+      color:#000;
+    }
+    .flow{
+      h2{
+        font-size: 4.03rem;
+        color:#000;
+      }
+      div{
+        margin-bottom: 70px;
+      }
+    }
+  }
+}

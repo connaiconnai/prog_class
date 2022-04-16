@@ -1,0 +1,45 @@
+#contact h2 {
+  margin-top: 68px;
+  text-align: center; }
+#contact textarea {
+  font-size: 4rem; }
+#contact .col-12 {
+  max-width: 1280px; }
+#contact .origin-button {
+  width: 30%;
+  height: 37px;
+  margin: auto;
+  margin-bottom: 40px; }
+#contact .title {
+  text-align: center; }
+  #contact .title .outline .bg-img {
+    background: url("../images/contact.jpg");
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    background-size: cover; }
+#contact .pc-flex {
+  height: 430px;
+  margin-top: 80px; }
+  @media (max-width: 640px) {
+    #contact .pc-flex {
+      height: auto; } }
+  #contact .pc-flex .txt {
+    height: 100%;
+    margin-top: 89px;
+    letter-spacing: 1.2rem; }
+    @media (max-width: 640px) {
+      #contact .pc-flex .txt {
+        height: auto; } }
+    #contact .pc-flex .txt h2 {
+      text-align: left; }
+  #contact .pc-flex .map {
+    width: 58%;
+    height: 100%; }
+    @media (max-width: 640px) {
+      #contact .pc-flex .map {
+        width: 100%; } }
+    #contact .pc-flex .map iframe {
+      width: 100%;
+      height: 100%; }
+
+/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,245 @@
+@import 'config';
+html{
+    margin: 0 !important;
+    //10px
+    font-size: 31.5% !important;
+    @media (max-width:$pc){
+      font-size: 0.28vw !important;
+    }
+    // @media (max-width:1150px){
+    //   font-size:5.9px;
+    // }
+    @media (max-width:$tab){
+      font-size: 0.40vw !important;
+    }
+    @media (max-width:$sp){
+      font-size: 0.8vw !important;
+    }
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.pc{
+    display:block;
+    @include sp{
+        display:none;
+    }
+}
+.sp{
+    display:none;
+    @include sp{
+        display:block;
+    }
+}
+.flex{
+    display:flex;
+}
+.pc-flex{
+    display:flex;
+    @include sp{
+        display:block;
+    }
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.col-12{
+    margin: auto;
+    width: 87.6%;
+    @include sp{
+        width: 91.25%;
+    }
+}
+.bg-color{
+    background: #FFF;
+}
+.origin-button{
+    width: 100%;
+    color:#FFF;
+    background-color:#1B1464;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 3.6rem;
+    border:none;
+}
+
+nav{
+  @include tab{
+    margin-top: 76px !important;
+  }
+  ul{
+    padding: 0;
+    display:flex;
+    justify-content:center;
+    li{
+      a{
+        color:#000;
+        font-size: 4.72rem;
+        @include tab{
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+}
+nav{
+  margin-top: 90px;
+}
+header{
+  width: 87.6%;
+  position: relative;
+  margin-bottom: -45px !important;
+  margin-top:48px !important;
+  z-index:999;
+  @include sp{
+    width: 100%;
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+  }
+  .logo{
+    width: 20%;
+    @include sp{
+      width: 66%;
+    }
+    img{
+      width: 100%;
+    }
+  }
+  .menu{
+    .menu-btn {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        display: flex;
+        height: 60px;
+        width: 60px;
+        justify-content: center;
+        align-items: center;
+        z-index: 90;
+    }
+    .menu-btn span,
+    .menu-btn span:before,
+    .menu-btn span:after {
+        content: '';
+        display: block;
+        height: 3px;
+        width: 25px;
+        border-radius: 3px;
+        background-color: #000;
+        position: absolute;
+    }
+    .menu-btn span:before {
+        bottom: 8px;
+    }
+    .menu-btn span:after {
+        top: 8px;
+    }
+    .menu-btn {
+        position: fixed;
+        top: 10px;
+        right: 20px;
+        display: flex;
+        height: 60px;
+        width: 60px;
+        justify-content: center;
+        align-items: center;
+        z-index: 90;
+    }
+    #menu-btn-check {
+        display: none;
+    }
+    .menu-content {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 100%;/*leftの値を変更してメニューを画面外へ*/
+        z-index: 80;
+        background-color: #FFF;
+        //transition: all 0.5s;/*アニメーション設定*/
+    }
+    .menu-content ul {
+        padding: 70px 10px 0;
+    }
+    .menu-content ul li {
+        border-bottom: solid 1px #ffffff;
+        list-style: none;
+    }
+    .menu-content ul li a {
+      text-align: center;
+        display: block;
+        width: 100%;
+        font-size: 15px;
+        box-sizing: border-box;
+        color:#000;
+        text-decoration: none;
+        padding: 30px 15px 10px 0;
+        position: relative;
+    }
+    .menu-content ul li a::before {
+        content: "";
+        width: 7px;
+        height: 7px;
+        border-top: solid 2px #ffffff;
+        border-right: solid 2px #ffffff;
+        transform: rotate(45deg);
+        position: absolute;
+        right: 11px;
+        top: 16px;
+    }
+  }
+  .button-menu{
+    max-width: 420px;
+    width: 23.88%;
+    position: absolute;
+    top:40%;
+    right:0px;
+    @include tab{
+      width: 36.88%;
+    }
+    .pc button{
+      height:45px;
+    }
+  }
+  #menu-btn-check:checked ~ .menu-btn span {
+      background-color: rgba(255, 255, 255, 0);/*メニューオープン時は真ん中の線を透明にする*/
+  }
+  #menu-btn-check:checked ~ .menu-btn span::before {
+      bottom: 0;
+      transform: rotate(45deg);
+  }
+  #menu-btn-check:checked ~ .menu-btn span::after {
+      top: 0;
+      transform: rotate(-45deg);
+  }
+  #menu-btn-check:checked ~ .menu-content {
+      left: 0;/*メニューを画面内へ*/
+  }
+}
+footer{
+  height: 300px;
+  .logo{
+    width: 20%;
+    margin:0 auto;
+    margin-top: 38px;
+    @include sp{
+      width: 48%;
+    }
+    img{
+      width: 100%;
+    }
+  }
+  p{
+    text-align: center;
+    margin-top: 50px;
+    color:#000;
+  }
+}

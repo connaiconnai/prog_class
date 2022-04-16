@@ -1,0 +1,151 @@
+#subsidy h1 {
+  font-size: 5.92rem; }
+#subsidy h2 {
+  font-size: 5.03rem; }
+#subsidy h3 {
+  font-size: 4.53rem; }
+#subsidy ul {
+  padding: 0;
+  text-align: center; }
+#subsidy li {
+  font-size: 4.53rem;
+  margin-bottom: 20px; }
+#subsidy p {
+  font-size: 3.72rem; }
+#subsidy .col-12 {
+  width: 80%;
+  margin: 0 auto; }
+#subsidy .red {
+  color: #C1272D; }
+#subsidy .blue {
+  color: #1B1464; }
+#subsidy .bg-gray {
+  color: #E6E6E6; }
+#subsidy .origin-button {
+  width: 30%;
+  height: 37px;
+  margin: auto;
+  margin-bottom: 40px; }
+#subsidy .pc-flex {
+  justify-content: space-between; }
+#subsidy .title {
+  width: 100%; }
+  #subsidy .title .outline {
+    width: 98%;
+    height: 230px;
+    margin: 0 auto; }
+    #subsidy .title .outline .bg-img {
+      width: 100%;
+      height: 100%;
+      background: url("../images/img/subsidy.jpg");
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #subsidy .title .outline .bg-img .bg-white {
+        width: 45%;
+        height: 45%;
+        background: rgba(255, 255, 255, 0.8);
+        color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        @media (max-width: 640px) {
+          #subsidy .title .outline .bg-img .bg-white {
+            width: 80%; } }
+#subsidy .nayami {
+  margin: 70px 0; }
+  #subsidy .nayami .origin-button {
+    text-align: center; }
+    @media (max-width: 640px) {
+      #subsidy .nayami .origin-button {
+        width: 75%; } }
+#subsidy .what .pc-flex .txt {
+  order: 1;
+  width: 63%; }
+  @media (max-width: 640px) {
+    #subsidy .what .pc-flex .txt {
+      width: 100%; } }
+#subsidy .what .pc-flex .img {
+  order: 2;
+  width: 37%;
+  height: 315px;
+  margin-left: 40px; }
+  @media (max-width: 640px) {
+    #subsidy .what .pc-flex .img {
+      width: 100%;
+      margin: 0;
+      margin-bottom: 40px; } }
+  #subsidy .what .pc-flex .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+#subsidy .what h2 {
+  text-align: center;
+  margin-bottom: 20px; }
+#subsidy .sec .sec-title {
+  color: #1B1464;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  text-align: center; }
+#subsidy .sec .sec-title-under {
+  border-bottom: 1px solid #1B1464;
+  width: 210px;
+  margin: auto;
+  position: relative; }
+  #subsidy .sec .sec-title-under::after {
+    content: "";
+    width: 60px;
+    height: 4px;
+    position: absolute;
+    top: -1.5px;
+    left: 0px;
+    background: #1B1464; }
+#subsidy .txt1 {
+  width: 100%;
+  margin-top: 30px; }
+  #subsidy .txt1 .column {
+    width: 49%; }
+    @media (max-width: 640px) {
+      #subsidy .txt1 .column {
+        width: 100%; } }
+#subsidy .txt2 {
+  width: 100%;
+  margin-top: 30px; }
+  #subsidy .txt2 .column {
+    width: 49%; }
+    @media (max-width: 640px) {
+      #subsidy .txt2 .column {
+        width: 100%; } }
+#subsidy .column .col-title {
+  width: 100%;
+  background: #FFF3F4;
+  height: 40px;
+  color: #1B1464;
+  display: flex;
+  align-items: center; }
+  #subsidy .column .col-title h2 {
+    line-height: 40px;
+    padding-left: 30px;
+    margin: 0; }
+#subsidy .column .col-txt {
+  margin-top: 24px; }
+#subsidy .melit .column {
+  margin-bottom: 50px; }
+#subsidy .bg-gray {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  margin-top: 90px; }
+  #subsidy .bg-gray h2 {
+    color: #1B1464; }
+  #subsidy .bg-gray h3 {
+    color: #000; }
+  #subsidy .bg-gray .flow h2 {
+    font-size: 4.03rem;
+    color: #000; }
+  #subsidy .bg-gray .flow div {
+    margin-bottom: 70px; }
+
+/*# sourceMappingURL=subsidy.css.map */

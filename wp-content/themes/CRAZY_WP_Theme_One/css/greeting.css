@@ -1,0 +1,41 @@
+#greeting h1 {
+  font-size: 5.92rem; }
+#greeting .title {
+  margin-bottom: 60px;
+  width: 100%; }
+  #greeting .title .outline {
+    width: 98%;
+    height: 230px;
+    margin: 0 auto; }
+    #greeting .title .outline .bg-img {
+      width: 100%;
+      height: 100%;
+      background: url("../images/img/greeting.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #greeting .title .outline .bg-img .bg-white {
+        width: 45%;
+        height: 45%;
+        background: rgba(255, 255, 255, 0.8);
+        color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+#greeting .col-12 {
+  width: 52%;
+  margin: auto; }
+  @media (max-width: 640px) {
+    #greeting .col-12 {
+      width: 100%; } }
+  #greeting .col-12 p {
+    font-size: 3.72rem; }
+#greeting .name {
+  margin-top: 50px;
+  text-align: right;
+  width: 80%; }
+
+/*# sourceMappingURL=greeting.css.map */
